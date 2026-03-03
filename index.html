@@ -91,7 +91,7 @@
     padding: 20px;
 }
 
-#gallery img {
+#gallery button {
     width: 50%;
     height: 50px;
     object-fit: cover;
@@ -100,7 +100,7 @@
     transition: transform 0.5s ease;
 }
 
-#gallery img:hover {
+#gallery button:hover {
     transform: rotate(10deg);
     cursor: pointer;
 }
@@ -113,10 +113,13 @@
     <h1 id="text">CodeClub Website</h1>
       <p style="margin:60px" id="text" class="center">You can post any projects here that you want! (Mostly)</p>
 	  <div id="gallery">
-      <a href="http://martycat111.github.io"><img href="/catgame.png" class="twist2 center">Random cat game</img></a>
+      <a href="http://martycat111.github.io"><button class="twist2 center">Random cat game</button></a>
 	  </div>
-	  <p>other versions of this website...</p>
-	  <a href="/zelle/index.html"><button class="twist2 center">Zelle's</button></a>
+	  <h3 id="text">other versions of this website...</h3>
+	  <div class="center">
+	  <a href="/zelle/index.html"><button class="twist2">Zelle's</button></a>
+	  <a href="/willemsite/index.html"><button class="twist2">Willems's</button></a>
+	  </div>
     </div>
     <div id="counter" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
     <h3 style="color: #70E62C; font-family: Consolas;">You are visitor number:
